@@ -8,10 +8,6 @@ build:
   tools:
     python: "3.11"   # Python版本，建议3.7或更高[citation:1][citation:2][citation:3]
 
-# 指定使用 MkDocs 及主配置文件
-mkdocs:
-  configuration: mkdocs.yml  # MkDocs配置文件名
-  
 # 关键：声明需要安装的Python依赖
 python:
   install:
@@ -21,3 +17,8 @@ python:
     #   path: .
     #   extra_requirements:
     #     - docs
+
+# 指定使用 MkDocs 及主配置文件
+mkdocs:
+  configuration: mkdocs.yml  # MkDocs配置文件名
+  
