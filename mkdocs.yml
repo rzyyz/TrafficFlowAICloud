@@ -6,13 +6,51 @@ site_description: >-
     
 nav:
     - 首页: index.md
-    - 用户手册-视频配置: '用户手册-视频配置.md'
-    - 用户手册-视频库: '用户手册-视频库.md'
+    - 视频库: '用户手册-视频库.md'
+    - 视频配置: '用户手册-视频配置.md'
 
         
 
 # 选择主题，例如官方主题
-theme: readthedocs
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.prune
+#    - toc.integrate
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 # 启用搜索功能
 plugins:
