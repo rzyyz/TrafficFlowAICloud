@@ -11,3 +11,13 @@ build:
 # 指定使用 MkDocs 及主配置文件
 mkdocs:
   configuration: mkdocs.yml  # MkDocs配置文件名
+  
+# 关键：声明需要安装的Python依赖
+python:
+  install:
+    - requirements: requirements.txt  # 方式一：推荐，通过文件管理依赖
+    # 或直接指定包
+    # - method: pip
+    #   path: .
+    #   extra_requirements:
+    #     - docs
