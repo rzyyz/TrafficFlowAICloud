@@ -1,10 +1,11 @@
-site_name: AIcloud_II
-repo_name: AIcloud_II
+site_name: TrafficFlowAICloud
+repo_name: TrafficFlowAICloud
 
 site_description: >-
-    AIcloud_II
+    TrafficFlowAICloud
     
 nav:
+    - 首页: index.md
     - 用户手册-视频配置: '用户手册-视频配置.md'
     - 用户手册-视频库: '用户手册-视频库.md'
 
