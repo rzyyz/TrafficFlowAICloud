@@ -6,7 +6,7 @@ version: 2
 build:
   os: ubuntu-22.04  # 构建系统
   tools:
-    python: "3.9"   # Python版本，建议3.7或更高[citation:1][citation:2][citation:3]
+    python: "3.11"   # Python版本，建议3.7或更高[citation:1][citation:2][citation:3]
 
 # 指定使用 MkDocs 及主配置文件
 mkdocs:
