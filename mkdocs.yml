@@ -1,98 +1,18 @@
-site_name: graphworkc
-site_url: https://ZheChengData.github.io/graphworkc
-repo_url: https://github.com/ZheChengData/graphworkc
-repo_name: graphworkc
+site_name: AIcloud_II
+repo_name: AIcloud_II
 
 site_description: >-
-    Python Path Engine Library Developed Based on C++
+    AIcloud_II
     
 nav:
-    - 项目主页: index.md
-    - 快速开始: 快速开始.md
-    - 函数接口:
-        - CGraphBase: Fun&API/CGraphBase.md
-        - GraphAlgorithms: Fun&API/GraphAlgorithms.md
-    - 案例展示: 案例展示.md
-    - 版本迭代: 版本迭代.md
+    - 用户手册-视频配置: '用户手册-视频配置.md'
+    - 用户手册-视频库: '用户手册-视频库.md'
+
         
 
-theme:
-  name: material
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.path
-    - navigation.sections
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.expand
-    - navigation.top
-    - navigation.indexes
-    - navigation.prune
-#    - toc.integrate
+# 选择主题，例如官方主题
+theme: readthedocs
 
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  
-on:
-    push:
-        branches:
-            - main  # 监听 main 分支的推送事件
-            
+# 启用搜索功能
 plugins:
-    - search
-    - mkdocstrings
-    - tags
-    
-
-  
-extra_css:
-  - stylesheets/extra.css 
- 
-markdown_extensions:
-  - def_list
-  - tables
-  - admonition
-  - attr_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
- 
-extra_javascript:
-  - js/custom.js
+  - search
