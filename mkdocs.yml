@@ -12,20 +12,34 @@ nav:
         
 
 # 选择主题，例如官方主题
+
 theme:
+#  logo: assets/images/road.svg
+#  favicon: assets/images/gti-black.svg
   name: material
   palette:
+    # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+#  custom_dir: diy/
   font:
     text: Roboto
     code: Roboto Mono
+
+#  logo: assets/images/gti.svg
+  icon:
+    annotation: material/arrow-right-circle
+    repo: fontawesome/brands/git-alt
+
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -55,3 +69,29 @@ theme:
 # 启用搜索功能
 plugins:
   - search
+  - mkdocstrings
+
+markdown_extensions:
+  - def_list
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+copyright: Copyright &copy; 2025 ZheChengData
