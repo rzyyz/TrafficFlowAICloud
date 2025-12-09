@@ -4,12 +4,12 @@ repo_name: TrafficFlowAICloud
 site_description: >-
     TrafficFlowAICloud
     
-nav:
-    - 首页: index.md
-    - 视频库: '用户手册-视频库.md'
-    - 视频配置: '用户手册-视频配置.md'
 
-        
+nav:
+    - 项目首页: index.md
+    - 用户手册:
+        - 视频库: 用户手册-视频库.md
+        - 视频配置: 用户手册-视频配置.md
 
 # 选择主题，例如官方主题
 
