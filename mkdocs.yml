@@ -6,18 +6,27 @@ site_description: >-
     
 
 nav:
-    - 项目首页: index.md
+    - 项目首页:
+      - 首页: index.md
+      - 注意事项: 注意事项.md
     - 用户手册:
       - 视频库: 用户手册/视频库.md
       - 视频配置: 用户手册/视频配置.md
+      - 流量分析: 用户手册/流量分析.md
+      - 轨迹分析: 用户手册/轨迹分析.md
+      - 冲突分析: 用户手册/冲突分析.md
+    - 快速开始:
+        - 交叉口流量分析(高空视口): 快速开始/交叉口流量分析(高空视口).md
+        - 交叉口流量分析(地面视口): 快速开始/交叉口流量分析(地面视口).md
+        - 路段轨迹分析(高空视口): 快速开始/路段轨迹分析(高空视口).md
 
 
 # 选择主题，例如官方主题
 
 
 theme:
-#  logo: assets/images/road.svg
-#  favicon: assets/images/gti-black.svg
+  logo: _static/APP图标-正常.svg
+  favicon: _static/APP图标-正常.svg
   name: material
   palette:
     # Palette toggle for light mode
