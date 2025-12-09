@@ -18,9 +18,9 @@
 
 ## 🎬 视频教程
 
-- **[B站视频：AI云软件界面和视频库功能介绍](https://www.bilibili.com/video/BV1a42QBUEWR)**
-- **[B站视频：AI云视频配置功能介绍——主体、图层样式和播放器](https://www.bilibili.com/video/BV1xz2QB6ESh)**
-- **[B站视频：AI云视频配置功能介绍——进出口和转向线](https://www.bilibili.com/video/BV1p12QBiErr)**
+- <a href="https://www.bilibili.com/video/BV1a42QBUEWR" target="_blank">  B站视频：AI云软件界面和视频库功能介绍</a>
+- <a href="https://www.bilibili.com/video/BV1xz2QB6ESh" target="_blank">  B站视频：AI云视频配置功能介绍——主体、图层样式和播放器</a>
+- <a href="https://www.bilibili.com/video/BV1p12QBiErr" target="_blank">B站视频：AI云视频配置功能介绍——进出口和转向线</a>
 
 
 ## 💡 获取帮助
