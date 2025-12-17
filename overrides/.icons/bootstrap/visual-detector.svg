@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>线圈检测器</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="主页——配置（主体1）" transform="translate(-536.000000, -56.000000)">
+            <g id="工具栏" transform="translate(376.000000, 48.000000)">
+                <g id="线圈检测器" transform="translate(160.000000, 8.000000)">
+                    <g id="编组-20" transform="translate(8.000000, 8.000000)">
+                        <path d="M16,11.5 L16,13 C16,14.6568542 14.6568542,16 13,16 L11.5,16 L11.5,14.55 L13,14.55 C13.8560414,14.55 14.55,13.8560414 14.55,13 L14.55,11.5 L16,11.5 Z M1.45,11.5 L1.45,13 C1.45,13.8560414 2.14395864,14.55 3,14.55 L4.5,14.55 L4.5,16 L3,16 C1.34314575,16 0,14.6568542 0,13 L0,11.5 L1.45,11.5 Z M13,0 C14.6568542,0 16,1.34314575 16,3 L16,4.5 L14.55,4.499 L14.55,3 C14.55,2.14395864 13.8560414,1.45 13,1.45 L11.5,1.45 L11.5,0 L13,0 Z M0,3 C0,1.34314575 1.34314575,0 3,0 L4.5,0 L4.5,1.45 L3,1.45 C2.14395864,1.45 1.45,2.14395864 1.45,3 L1.45,4.5 L0,4.5 L0,3 Z" id="形状结合" fill="#5A5A5A" fill-rule="nonzero"></path>
+                        <circle id="椭圆形" stroke="#5A5A5A" stroke-width="1.45" cx="8" cy="8" r="3.275"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
