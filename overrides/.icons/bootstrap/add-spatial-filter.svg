@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>添加</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="轨迹分析——筛选" transform="translate(-204.000000, -988.000000)">
+            <g id="面板" transform="translate(0.000000, 48.000000)">
+                <g id="编组-10备份" transform="translate(63.000000, 218.000000)">
+                    <g id="编组-34" transform="translate(16.000000, 547.000000)">
+                        <g id="编组-25" transform="translate(0.000000, 175.000000)">
+                            <g id="添加" transform="translate(125.000000, 0.000000)">
+                                <circle id="椭圆形" stroke="#8D8D8D" cx="8" cy="8" r="6.5"></circle>
+                                <path d="M8,4 C8.27614237,4 8.5,4.22385763 8.5,4.5 L8.5,7.5 L11.5,7.5 C11.7761424,7.5 12,7.72385763 12,8 C12,8.27614237 11.7761424,8.5 11.5,8.5 L8.5,8.5 L8.5,11.5 C8.5,11.7761424 8.27614237,12 8,12 C7.72385763,12 7.5,11.7761424 7.5,11.5 L7.5,8.5 L4.5,8.5 C4.22385763,8.5 4,8.27614237 4,8 C4,7.72385763 4.22385763,7.5 4.5,7.5 L7.5,7.5 L7.5,4.5 C7.5,4.22385763 7.72385763,4 8,4 Z" id="形状结合" fill="#8D8D8D"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
